@@ -1,0 +1,8 @@
+POST http://localhost:5000/posts/
+Content-Type: application/json
+
+{
+    "title": "My Second Blog Post",
+    "content": "This is the content of my very second blog post. It's exciting to continue my blogging!",
+    "author": "John Storm"
+}
