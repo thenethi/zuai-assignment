@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Blog Posts Application
 
-## Available Scripts
+## Objective
 
-In the project directory, you can run:
+    To Create a basic blog application with a list view and a detail view for blog posts, and deploy it to a cloud platform. This task will assess your skills in frontend        development, backend development, database management, and deployment.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    Used ReactJS, React Router, Node.js, Express.js, SQLite3, CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Completion Instructions
 
-### `npm test`
+### Functionality
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Must Have
+    ### Frontend (React, Vue, or Angular)
+        * Create a responsive layout with a header, main content area, and footer
+        * Implement a list view of blog posts, displaying title and excerpt
+        * Implement a detail view for individual blog posts
+        * Create a form for adding new blog posts
+        * Implement basic client-side form validation
+        
+    ### Backend (Choose one: Node.js with Express, Python with Flask, or Ruby on Rails)
+        * Set up a RESTful API with the following endpoints:
+            GET /posts (list all posts)
+            GET /posts/:id (get a specific post)
+            POST /posts (create a new post)
+            PUT /posts/:id (update a post)
+            DELETE /posts/:id (delete a post)
+        * Implement a simple database model for blog posts using any SQL or NoSQL database
+        * Implement basic error handling and input validation
 
-### `npm run build`
+### Guidelines to develop a project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Must Have
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    * Create a new public repository on GitHub for the assignment.
+    * Commit your code regularly and include clear commit messages.
+    * Include a README file explaining the project setup, usage instructions, and any additional information.
+    * Ensure the repository is well-organized and easy to navigate.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Submission Instructions
 
-### `npm run eject`
+#### Must Have
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    Functionality, Code Quality, User Interface, Error Handling
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Resources
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### APIs
 
-## Learn More
+    API URL - https://zuai-assignment.onrender.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Setup Instructions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    * Frontend (main branch)
+        npm install
+        npm start
+    * Backend (master branch)
+        npm install
+        node server.js
